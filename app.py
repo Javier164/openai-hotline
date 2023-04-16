@@ -19,7 +19,7 @@ However, I am not responsible for anything the AI may generate or what you do wi
 
 Some things you can tinker with are the maximum amount of tokens, the engine (go nuts), or the temperature. 
 Be warned, a lot of it will be spam if it is not using the "text-davinci-002" engine.
-Have fun! Any potential questions may have answers within the FAQ.md file.
+Have fun!
 """
 
 # Set OpenAI API key
