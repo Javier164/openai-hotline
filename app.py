@@ -18,7 +18,7 @@ This can be used however you'd like, and can be modified since it is open source
 However, I am not responsible for anything the AI may generate or what you do with the AI.
 
 Some things you can tinker with are the maximum amount of tokens, the engine (go nuts), or the temperature. 
-Be warned, a lot of it will be spam if it is not using the "text-davinci-002" engine.
+Be warned, a lot of it will be spam if it is not using the "text-davinci-002"/"text-davinci-003" engine.
 Have fun!
 """
 
@@ -56,7 +56,7 @@ def sms():
     try:
         # Send the message body to OpenAI API for processing
         response = openai.Completion.create(
-            engine="text-davinci-002",
+            engine="text-davinci-003",
             prompt=body,
             max_tokens=500,
             n=1,
